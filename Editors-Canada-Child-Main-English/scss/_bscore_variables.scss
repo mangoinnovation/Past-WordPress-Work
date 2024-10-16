@@ -1,0 +1,101 @@
+// In this file you can override the default variables of Bootstrap
+// Do you want primary to be green? Just add "$primary: #00FF00;" to this file and the theme will automatically compile the scss for you.
+
+
+// Breakpoints
+$grid-breakpoints: (
+        xxs: 0,
+        xs: 568px,
+        sm: 667.5px,
+        md: 767.5px,
+        lg: 991.5px,
+        xl: 1199.5px,
+        xxl: 1439.5px
+);
+
+$container-max-widths: (
+        xxs: 567px,
+        xs: 568px,
+        sm: 667.5px,
+        md: 767.5px,
+        lg: 991.5px,
+        xl: 1199.5px,
+        xxl: 1636px
+);
+
+
+
+// Color system
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-dark: #212121;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800:$gray-dark;
+$gray-900: #3A3B3C;
+$black:    #000;
+
+// scss-docs-start color-variables
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #ff4b4b;
+$orange:  #fd7e14;
+$yellow:  #fffd95;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+// scss-docs-start theme-color-variables
+$primary:   #c82509;
+$secondary: #f00;
+$success:   $green;
+$info:      $cyan;
+$warning:   $yellow;
+$danger:    $red;
+$light:     $gray-100;
+$dark:      #212121;
+$footer:    #b21212;
+$rss:       #ee802f;
+
+// Settings for the `<body>` element.
+$body-bg:       $white;
+$body-color:    #333333;
+
+// Navbar
+$navbar-light-color:        rgba($black, .55);
+$navbar-light-hover-color:  rgba($black, .7);
+$navbar-light-active-color: rgba($black, .9);
+
+// Border radius
+$border-radius:      .375rem;
+$border-radius-sm:   .25rem;
+$border-radius-lg:   .5rem;
+$border-radius-xl:   1rem;
+$border-radius-2xl:  2rem;
+$border-radius-pill: 50rem;
+// Checkboxes
+$form-check-input-border-radius:  .25em;
+
+// Style anchor elements.
+$link-decoration:       underline;
+$link-hover-decoration: null;
+
+
+// Fonts
+$font-family-sans-serif:    'Lato', sans-serif !default;
+$font-family-monospace:   'Lato', sans-serif, monospace;
+
+$headings-font-family:  'Lato', sans-serif !default;
+$headings-font-weight:  700;
+$display-font-weight:   400;
+
+//Enable negative margin
+$enable-negative-margins:  true !default;
+
