@@ -1,0 +1,319 @@
+/* 
+Theme Name: Metba - Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Derrick Boddie
+Author URI: https://mangoinnovation.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    transition: all .3s;
+    box-shadow: 0px 4px 4px 0px #00000040 inset !important;
+    font-family: "Lekton", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #D9D9D9 !important;
+}
+::placeholder {
+    color: #D9D9D9 !important;
+    font-family: "Lekton", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+.mailerlite-subscribe-submit{
+    color: #172A3A !important;
+    font-family: "Lekton", Sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 23px !important;
+    letter-spacing: 1px !important;
+    background-color: #09BC8A !important;
+    border-radius: 3px !important;
+    width: 100%;
+    padding: 5px 10px 10px 10px !important;
+    box-shadow: 0px 4px 4px 0px #00000040 !important;
+}
+.mailerlite-subscribe-submit:hover{
+    color: #09BC8A !important;
+    background-color: #172A3A !important;
+}
+.mailerlite-form .mailerlite-form-field label {
+    display: none;
+}
+.img-shadow .elementor-widget-container{
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #291F1E;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.img-shadow-2 .elementor-widget-container{
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.img-shadow img,.img-shadow-2 img{
+    border-radius: 20.5px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    margin-bottom: -8px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 3px !important;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color:#172A3A !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    font-family: "Lekton", Sans-serif !important;
+    line-height: 23px;
+}
+.play-button:hover{
+    color: #09BC8A !important;
+    background-color: #172A3A !important;
+}
+
+.circle-img img{
+    background-color: rgba(9, 188, 138, 1);
+    border-style: solid !important;
+    border-width: 7px;
+    border-color: rgba(9, 188, 138, 1);
+    border-radius: 576px;
+}
+.um-form input[type=number], .um-form input[type=password], .um-form input[type=search], .um-form input[type=tel], .um-form input[type=text]{
+    width: 100%;
+    border: 1px solid #666 !important;
+    border-radius: 3px !important;
+    padding: .5rem 1rem !important;
+    transition: all .3s;
+    box-shadow: 0px 4px 4px 0px #00000040 inset !important;
+    font-family: "Lekton", Sans-serif;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 23px !important;
+    letter-spacing: 1px !important;
+    color: #D9D9D9 !important;
+}
+
+.filter-header{
+    font-family: "Lekton", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: None;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.btn-secondary{
+    color: #172A3A !important;
+    font-family: "Lekton", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    letter-spacing: 1px !important;
+    background-color: #09BC8A !important;
+    border-radius: 3px !important;
+    padding: 1% 5% 1% 5% !important;
+    box-shadow: 0px 4px 4px 0px #00000040 !important;
+    border-color: transparent;
+}
+.btn-secondary:hover{
+    color:  #09BC8A !important;
+    background-color: #fff !important;
+    border-color: transparent;
+}
+
+.btn-check:checked+.btn-secondary{
+    color:  #09BC8A !important;
+    font-family: "Lekton", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    letter-spacing: 1px !important;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    padding: 1% 5% 1% 5% !important;
+    box-shadow: 0px 4px 4px 0px #00000040 !important;
+    border-color: transparent;
+}
+.btn-check:checked+.btn-secondary:hover{
+    color: #172A3A !important;
+    background-color: #09BC8A !important;
+    border-color: transparent;
+}
+.event-sector-header{
+    color: #09BC8A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+}
+.event-sector-header-2{
+    color: #fff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+}
+.custom-shadow{
+    box-shadow: 0px 4px 4px 0px #00000040 !important;
+}
+.event-tile{
+    margin-bottom: 0;
+}
+.event-link{
+    font-family: "Lekton", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    color: #fff;
+    margin-left: -10px;
+}
+
+.um-name{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    /*text-align: left;*/
+    color: #291F1E;
+}
+.um-member-more,.um-member-less{
+    display: none;
+}
+.userModal{
+    margin-top: 10%;
+}
+.userModalContent{
+    border: 7px solid #09BC8A;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.um-custom-f-label-1{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #172A3A;
+    margin-right: 20px;
+}
+.um-custom-f-1{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #172A3A;
+}
+.um-name-label-1,.um-custom-f-label{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.28px;
+    text-align: center;
+    color: #172A3A;
+}
+.um-name-label-1{
+    margin-right: 20px;
+}
+.um-name-1,.um-custom-f{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.28px;
+    text-align: center;
+    color: #172A3A;
+}
+.um-name-label-1,.um-custom-f-label{
+    margin-right: 10px;
+}
+.userModal .um-member-photo a{
+    border: 7px solid #09BC8A !important;
+    border-radius: 999px;
+}
+
+.modal-header-contet{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    color: #172A3A;
+}
+.um-about{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #291F1E;
+}
+.userModal .btn{
+    background-color: transparent;
+    box-shadow: none;
+    margin: -.5rem -.5rem -.5rem auto;
+}
+.userModal .btn:hover{
+    color: #fff;
+}
+.userModal-btn{
+    background-color: #252E76 !important;
+    color: #fff !important;
+    padding: 10px 40px 10px 40px !important;
+}
+.userModal-btn:hover{
+    background-color:#09BC8A !important;
+    color: #252E76 !important;
+}
+.um-member-tagline{
+    display: none;
+}
+.um-directory .um-member-directory-header .um-member-directory-header-row.um-member-directory-search-row{
+    justify-content: flex-start !important;
+}
+.login-shortcode{
+    color: #fff;
+    text-align: center;
+}
+.login-shortcode-2{
+    text-align: center;
+}
+.um-972.um {
+    opacity: 1 !important;
+}
+#elementor-popup-modal-1058 .dialog-message{
+    overflow: hidden !important;
+}
+#upcoming-events p{
+    color: #fff;
+}
